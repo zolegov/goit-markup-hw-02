@@ -66,8 +66,9 @@ body {
   background-color: #404bbf;
 }
 
-.advantages-title,
-.team-item-title {
+.advantages-item-title,
+.team-item-title,
+.portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -75,25 +76,38 @@ body {
   color: #2e2f42;
 }
 .advantages-text,
+.team-item-text,
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-title,
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-item {
+  background-color: #ffffff;
+}
 .team-item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em
+  color: #434455;
 }
-.team{
-    background-color: #F4F4FD;
+.footer {
+  background-color: #2e2f42;
 }
-.team-title{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+.footer-studio {
+  color: #f4f4fd;
 }
-.team-item{
-    background-color: #FFFFFF;
-}
-.team-item-text {
-   color: #434455;
+.footer-content{
+     line-height: 1.5;
+     color: #F4F4FD;
+     letter-spacing: 0.02em;
 }
