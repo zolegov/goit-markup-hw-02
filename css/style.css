@@ -3,8 +3,9 @@
   padding: 0;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
 }
 a {
   text-decoration: none;
@@ -13,9 +14,7 @@ ul {
   list-style: none;
   margin: 0;
 }
-button {
-  cursor: pointer;
-}
+ 
 .header {
   height: 72px;
   flex-shrink: 0;
@@ -61,13 +60,14 @@ button {
   flex-shrink: 0;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.31px;
-  letter-spacing: 0.54px;
+  line-height: 1.17px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5 ;
+  font-family: "Raleway", sans-serif
 }
-.logo-web {
-  color: #4d5ae5;
+.logo-studio {
+  color:  #2e2f42;
 }
 address {
   display: flex;
@@ -104,13 +104,13 @@ address {
   justify-content: center;
   align-items: center;
 }
-.main-hero h1 {
+.main-hero-h1 { 
   color: #fff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 3.75;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   margin-bottom: 48px;
 }
 .main-hero-btn {
@@ -123,15 +123,18 @@ address {
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 }
-.main-hero-btn:hover {
+.main-hero-btn:hover,
+.main-hero-btn:focus{
   border-radius: 4px;
   background: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 .main-advantages h2 {
   display: none;
